@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-/* adjusting fonts */
+/* fonts */
 
 /* Asset */
 .asset-regular {
@@ -20,8 +20,7 @@
 	font-style: normal;
 	}
 
-
-
+/* adjusting fonts */
 
 body {
 	font-family: Cutive Mono;
@@ -30,23 +29,31 @@ body {
 }
 
 h1 {
+	font-size: 80;
 	font-family: Asset;
 	color: blueviolet;	
 	text-align: center;
 }
 
-p, p2 {
-	font-size: 20px;
+p {
+	font-size: 16px;
 }
 
 li {
-	font-size:  20px;
-	line-height: 30px;
+	font-size:  16px;
+	line-height: 22px;
 }
 
 pre {
 	color: blueviolet;
 }
+
+office-heehee {
+	font-size: 16px;
+	margin-left: 40px;
+	line-height: 100px;
+}
+
 /* adjusting spacing */
 
 #left-column {
@@ -55,18 +62,22 @@ pre {
 
 h1 {
 	margin-top: 15px;
-	margin-bottom: 60px;
+	margin-bottom: 200px;
 }
 
-p, p2 {
-	margin-left: 20px;
+p {
+	margin-left: 40px;
 	margin-bottom:  40px;
 }
 
-ul, ol {
-	margin-left: 20px;
+ul {
+	margin-left: 40px;
+	margin-botton: 40px;
 }
 
+li {
+	margin-left: 40px;
+}
 
 img {
 	max-width: 100%;
