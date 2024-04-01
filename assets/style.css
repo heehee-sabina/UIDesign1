@@ -1,0 +1,103 @@
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+/* adjusting fonts */
+
+/* Asset */
+.asset-regular {
+	font-family: "Asset", serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+
+/* Cutive Mono */	
+.cutive-mono-regular {
+	font-family: "Cutive Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+	}
+
+
+
+
+body {
+	font-family: Cutive Mono;
+	color: darkgrey;
+	transition: background 500ms ease;
+}
+
+h1 {
+	font-family: Asset;
+	color: blueviolet;	
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	background-color: #00FF00;
+}
+
+li {
+	font-size:  20px;
+	line-height: 30px;
+}
+
+pre {
+	color: blueviolet;
+}
+/* adjusting spacing */
+
+#left-column {
+	padding: 20px;
+}
+
+h1 {
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+
+p {
+	margin-left: 20px;
+	margin-bottom:  40px;
+}
+
+ul, ol {
+	margin-left: 20px;
+}
+
+p2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height:  auto;
+}
+
+/* uncomment the code below to set the grid */
+
+/*#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+body {
+	overflow: hidden;
+}
+
+.scroll {
+	padding:  20px;
+	overflow: scroll;
+	height: 100vh;
+}
+
+#left-column {
+}
+
+#right-column {
+	background: #333;
+}*/
