@@ -35,9 +35,8 @@ h1 {
 	text-align: center;
 }
 
-p {
-	font-size: 22px;
-	background-color: #00FF00;
+p, p2 {
+	font-size: 20px;
 }
 
 li {
@@ -59,7 +58,7 @@ h1 {
 	margin-bottom: 60px;
 }
 
-p {
+p, p2 {
 	margin-left: 20px;
 	margin-bottom:  40px;
 }
@@ -68,10 +67,6 @@ ul, ol {
 	margin-left: 20px;
 }
 
-p2 {
-	margin-left: 20px;
-	margin-bottom: 20px;
-}
 
 img {
 	max-width: 100%;
